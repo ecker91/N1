@@ -18,9 +18,9 @@ programa {
     escreva("Valor total a pagar: R$"+somaMulta+"\n")
     escreva("Total de pontos :"+somaPontos+"\n")
     se(somaPontos < 21){
-        escreva("Você está regular")
+        escreva("VocÃª estÃ¡ regular")
     }senao{
-        escreva("Você está irregular")
+        escreva("VocÃª estÃ¡ irregular")
     }
   }
 }
