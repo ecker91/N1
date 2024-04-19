@@ -3,19 +3,19 @@ programa {
       cadeia nomeEspecie
       inteiro populacaoEspecie
 
-      escreva("Digite o nome da espécie: ")
+      escreva("Digite o nome da espÃ©cie: ")
       leia(nomeEspecie)
-      escreva("Insira o valor da população de tal espécie: ")
+      escreva("Insira o valor da populaÃ§Ã£o de tal espÃ©cie: ")
       leia(populacaoEspecie)
 
       se(populacaoEspecie >= 200 e populacaoEspecie <= 500){
-        escreva("Espécie criticamente em perigo!")
+        escreva("EspÃ©cie criticamente em perigo!")
       }
       senao se(populacaoEspecie > 500 e populacaoEspecie <= 1000){
-        escreva("Espécie em perigo.")
+        escreva("EspÃ©cie em perigo.")
       }
       senao se(populacaoEspecie > 1000 e populacaoEspecie <= 5000){
-        escreva("Espécie vulnerável.")
+        escreva("EspÃ©cie vulnerÃ¡vel.")
       }
     
   }
