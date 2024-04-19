@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     inteiro numero, expoente, contador = 0 , resultado = 1
-    escreva("Digite um número: ")
+    escreva("Digite um nÃºmero: ")
     leia(numero)
     escreva("Digite o expoente: ")
     leia(expoente)
@@ -10,6 +10,6 @@ programa {
       resultado = resultado*numero
       contador = contador + 1
     }
-    escreva("O resultado de "+numero+" elevado a "+expoente+" é igual a "+resultado)
+    escreva("O resultado de "+numero+" elevado a "+expoente+" Ã© igual a "+resultado)
   }
 }
