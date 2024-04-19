@@ -56,7 +56,7 @@ programa {
 
     mediaIdade = somaIdades /5
 
-    escreva("Média de idades: "+mediaIdade)
+    escreva("MÃ©dia de idades: "+mediaIdade)
     escreva("\nMaior idade entre os cinco: "+maiorIdade)
     escreva("\nPessoa com maior idade: "+nomeMaiorIdade)
   }
