@@ -7,7 +7,7 @@ programa {
         alturaPedrinho = alturaPedrinho + 0.03
         contador = contador + 1
     }
-    escreva("Passar„o "+contador+" anos atÈ que Pedrinho passe Jo„ozinho.")
+    escreva("Passar√£o "+contador+" anos at√© que Pedrinho passe Jo√£ozinho.")
     
   }
 }
