@@ -6,6 +6,6 @@ programa {
       escreva("Qual fruta a adcionar? ")
       leia(ingrediente)
     }
-    escreva("Sua salada de frutas est· pronta!")
+    escreva("Sua salada de frutas est√° pronta!")
   }
 }
