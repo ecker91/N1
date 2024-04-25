@@ -1,4 +1,4 @@
-//3) Peça três números ao usuário e os exiba em ordem crescente.
+//5) Peça três números ao usuário e os exiba em ordem crescente.
 
 let numeroUm, numeroDois, numeroTres, temp
 
