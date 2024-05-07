@@ -7,6 +7,7 @@ numeroDois = Number(prompt('Digite o valor do segundo número: '))
 numeroTres = Number(prompt('Digite o valor do terceiro número: '))
 numeroQuatro = Number(prompt('Digite o valor do quarto número: '))
 
+//versão de 4 digitos do exercicio de numeros crescente
 if(numeroDois < numeroUm){
     numeroTemp = numeroDois
     numeroDois = numeroUm
