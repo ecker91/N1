@@ -10,7 +10,9 @@ switch(true){
     case ladoUm == ladoDois && ladoDois == ladoTres:
         alert('É um triângulo equilatero.')
         break
-    case ladoUm == ladoDois || ladoDois == ladoTres || ladoUm == ladoTres:
+    case ladoUm == ladoDois:
+    case ladoDois == ladoTres:
+    case ladoUm == ladoTres:
         alert('É um triângulo isósceles.')
         break
     default: 
