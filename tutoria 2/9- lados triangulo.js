@@ -2,9 +2,9 @@
 
 let ladoUm, ladoDois, ladoTres, tipoTriangulo
 
-ladoUm = Number(prompt('Digite quantas unidades de media tem o primeiro lado: '))
-ladoDois = Number(prompt('Digite quantas unidades de media tem o segundo lado: '))
-ladoTres = Number(prompt('Digite quantas unidades de media tem o terceiro lado: '))
+ladoUm = Number(prompt('Digite quantas unidades de medida tem o primeiro lado: '))
+ladoDois = Number(prompt('Digite quantas unidades de medida tem o segundo lado: '))
+ladoTres = Number(prompt('Digite quantas unidades de medida tem o terceiro lado: '))
 
 switch(true){
     case ladoUm == ladoDois && ladoDois == ladoTres:
