@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: rgb(121, 117, 117);
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border-color: rgb(82, 82, 82);
+    border-style: solid;
+    background-color: #ffffff;
+    color: #4d4a4a;
+}
+button:hover{
+    background-color: rgb(177, 171, 171);
+    border-color: black;
+    border-style: solid;
+    color: black;
+}
+.content{
+    border-style: dashed;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    margin-top: 5vw;
+}
