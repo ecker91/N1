@@ -1,6 +1,8 @@
 body{
-    text-align: center;
-    background-color: rgb(121, 117, 117);
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    justify-content: center;
+    margin-top: 50px;
 }
 button{
     width: 100px;
@@ -9,17 +11,18 @@ button{
     border-color: rgb(82, 82, 82);
     border-style: solid;
     background-color: #ffffff;
-    color: #4d4a4a;
+    color: #4a4a4a;
 }
 button:hover{
-    background-color: rgb(177, 171, 171);
+    background-color: rgb(171, 171, 171);
     border-color: black;
     border-style: solid;
     color: black;
 }
 .content{
-    border-style: dashed;
-    margin-left: 35vw;
-    margin-right: 35vw;
-    margin-top: 5vw;
+    padding: 20px;
+    border-style: dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
