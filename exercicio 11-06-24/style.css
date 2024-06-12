@@ -1,0 +1,27 @@
+body{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(164, 204, 238)
+}
+body.about{
+    display: block;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.left{
+    border: black solid;
+    border-radius: 6px;
+    padding: 0% 6% 3% 6%;
+    background-color:rgb(169, 175, 202);
+}
+
+.right{
+    border: black solid;
+    border-radius: 6px;
+    padding: 0% 6% 3% 6%;
+    text-align: end;
+    background-color:rgb(169, 175, 202);
+}
