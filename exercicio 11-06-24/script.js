@@ -1,5 +1,10 @@
-let username= []
+let username = []
 let password = []
+let teste = localStorage.getItem("login")
+if(teste !== null){
+    username = JSON.parse(localStorage.getItem("login"))
+    password = JSON.parse(localStorage.getItem("senha"))
+}
 
 function login(){
     let login = document.getElementById("usernameLogin").value
@@ -22,6 +27,8 @@ function cadastro(){
     let senha = document.getElementById("passwordRegister").value
     username.push(login)
     password.push(senha)
+    localStorage.setItem("login", JSON.stringify(username)) 
+    localStorage.setItem("senha", JSON.stringify(password)) 
     document.getElementById("usernameRegister").value = null
     document.getElementById("passwordRegister").value = null
 }
